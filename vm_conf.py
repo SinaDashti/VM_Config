@@ -118,4 +118,4 @@ def put_file(machinename,port ,username, password, path):
     # print(vm_st, vm_op)
     ssh.close()
 
-put_file('172.17.2.140', 22, 'root', 'Image4Jup!', sys.argv[1])
+put_file('1.2.3.4', 22, 'root', 'mypassmypass', sys.argv[1])
